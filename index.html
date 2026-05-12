@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referencias — Síndrome de Takotsubo vs SCA</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fefed0;
+    --surface: #fff9c4;
+    --border: #d4c97a;
+    --accent: #441125;
+    --accent2: #7a1e3a;
+    --text: #1a0a0f;
+    --muted: #6b4455;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 32px;
+  }
+  header {
+    background: var(--accent);
+    color: #fefed0;
+    padding: 32px 36px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  .tag {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #f4c0d1;
+    margin-bottom: 10px;
+    display: block;
+  }
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(20px, 4vw, 32px);
+    color: #fefed0;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  h1 em { font-style: italic; color: #f4c0d1; }
+  .subtitle { color: #d4a0b5; font-size: 11px; }
+
+  .ref-list { display: flex; flex-direction: column; }
+
+  .ref-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    opacity: 0;
+    transform: translateY(6px);
+    animation: fadeUp 0.35s forwards;
+  }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+  .ref-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    color: var(--accent);
+    opacity: 0.6;
+    padding-top: 2px;
+    text-align: right;
+  }
+  .ref-text { color: var(--text); opacity: 0.9; }
+  .ref-text em { font-style: italic; }
+  .ref-text a {
+    color: var(--accent2);
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 11px;
+  }
+  .ref-text a:hover { text-decoration: underline; }
+
+  footer {
+    margin-top: 56px;
+    background: var(--accent);
+    border-radius: 8px;
+    padding: 28px 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .footer-text { flex: 1; min-width: 200px; }
+  .footer-text strong {
+    color: #f4c0d1;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .footer-text p { color: #d4a0b5; font-size: 11px; line-height: 1.8; }
+
+  #qrcode {
+    background: #fefed0;
+    padding: 8px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #qrcode canvas, #qrcode img { display: block; }
+
+  .qr-label {
+    color: #f4c0d1;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 6px;
+    text-align: center;
+  }
+  .qr-wrap { display: flex; flex-direction: column; align-items: center; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <span class="tag">Revisión narrativa · 2018–2026</span>
+    <h1>Síndrome de Takotsubo<br><em>vs.</em> Síndrome Coronario Agudo</h1>
+    <p class="subtitle">Referencias bibliográficas completas — APA 7ª edición</p>
+  </header>
+
+  <div class="ref-list">
+
+    <div class="ref-item" style="animation-delay:.02s"><div class="ref-num">1</div><div class="ref-text">Anónimo. (2024). Takotsubo syndrome in a specific population: a case series. <em>European Heart Journal - Case Reports, 8</em>(3). <a href="https://doi.org/10.1093/ehjcr/ytae030">https://doi.org/10.1093/ehjcr/ytae030</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.04s"><div class="ref-num">2</div><div class="ref-text">Aparisi, Á., &amp; Uribarri, A. (2020). Síndrome de Takotsubo. <em>Medicina Clínica, 155</em>(8), 347–355. <a href="https://doi.org/10.1016/j.medcli.2020.04.023">https://doi.org/10.1016/j.medcli.2020.04.023</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.06s"><div class="ref-num">3</div><div class="ref-text">Assad, J., Femia, G., Pender, P., Badie, T., &amp; Rajaratnam, R. (2022). Takotsubo syndrome: A review of presentation, diagnosis and management. <em>Clinical Medicine Insights: Cardiology, 16</em>, 11795468211065782. <a href="https://doi.org/10.1177/11795468211065782">https://doi.org/10.1177/11795468211065782</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.08s"><div class="ref-num">4</div><div class="ref-text">Castaldi, G., Fezzi, S., Widmann, M., et al. (2023). Angiography-derived index of microvascular resistance in takotsubo syndrome. <em>International Journal of Cardiovascular Imaging, 39</em>(1), 233–244. <a href="https://doi.org/10.1007/s10554-022-02698-6">https://doi.org/10.1007/s10554-022-02698-6</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.10s"><div class="ref-num">5</div><div class="ref-text">De Filippo, O., Peano, V., Pasquero, M., Templin, C., Cammann, V. L., D'Ascenzo, F., &amp; De Ferrari, G. M. (2024). Takotsubo syndrome: Impact of medical therapies on prognosis. <em>Current Problems in Cardiology, 49</em>(8), 102623. <a href="https://doi.org/10.1016/j.cpcardiol.2024.102731">https://doi.org/10.1016/j.cpcardiol.2024.102731</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.12s"><div class="ref-num">6</div><div class="ref-text">Fanni, B., Zsolt, F., Piróth, Z., &amp; Muk, B. (2026). Diagnostic challenges of Takotsubo syndrome in the context of hypertrophic obstructive cardiomyopathy phenocopy. <em>BMJ Case Reports, 19</em>(2). <a href="https://doi.org/10.1136/bcr-2025-270318">https://doi.org/10.1136/bcr-2025-270318</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.14s"><div class="ref-num">7</div><div class="ref-text">Fan, X., Yuan, Y., Huang, Z., Zhang, L., Zhao, B., Zhang, D., Liu, Y., Chen, G., Liu, P., &amp; Yang, G. (2025). Takotsubo syndrome: Unraveling the mystery behind its triggers (Review). <em>International Journal of Molecular Medicine, 56</em>(5), 174. <a href="https://doi.org/10.3892/ijmm.2025.5615">https://doi.org/10.3892/ijmm.2025.5615</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.16s"><div class="ref-num">8</div><div class="ref-text">Faucher, L., Matsushita, K., Kikuchi, S., Tatarcheh, T., Marchandot, B., Granier, A., Amissi, S., Trimaille, A., Jesel, L., Ohlmann, P., Hibi, K., Schini-Kerth, V., &amp; Morel, O. (2025). Mortality risk stratification for Takotsubo syndrome: Evaluating CRP measurement alongside the InterTAK Prognostic Score. <em>ESC Heart Failure, 12</em>(2), 1427. <a href="https://doi.org/10.1002/ehf2.15161">https://doi.org/10.1002/ehf2.15161</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.18s"><div class="ref-num">9</div><div class="ref-text">Ghadri, J.-R., Wittstein, I. S., Prasad, A., Sharkey, S., Dote, K., Akashi, Y. J., Cammann, V. L., Crea, F., Galiuto, L., Desmet, W., Yoshida, T., Manfredini, R., Eitel, I., Kosuge, M., Nef, H. M., Deshmukh, A., Lerman, A., Bossone, E., Citro, R., … Templin, C. (2018). International expert consensus document on Takotsubo syndrome (Part I): Clinical characteristics, diagnostic criteria, and pathophysiology. <em>European Heart Journal, 39</em>(22), 2032–2046. <a href="https://doi.org/10.1093/eurheartj/ehy076">https://doi.org/10.1093/eurheartj/ehy076</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.20s"><div class="ref-num">10</div><div class="ref-text">Ghadri, J.-R., Wittstein, I. S., Prasad, A., Sharkey, S., Dote, K., Akashi, Y. J., Cammann, V. L., Crea, F., Galiuto, L., Desmet, W., Yoshida, T., Manfredini, R., Eitel, I., Kosuge, M., Nef, H. M., Deshmukh, A., Lerman, A., Bossone, E., Citro, R., … Templin, C. (2018). International expert consensus document on Takotsubo syndrome (Part II): Diagnostic workup, outcome, and management. <em>European Heart Journal, 39</em>(22), 2047–2062. <a href="https://doi.org/10.1093/eurheartj/ehy077">https://doi.org/10.1093/eurheartj/ehy077</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.22s"><div class="ref-num">11</div><div class="ref-text">Huang, X., Guan, B., Ma, Y., Tian, F., Yu, Y., Luo, Y., Li, Y., Cao, J., &amp; Deng, Y. (2023). Values of new ultrasonic imaging methods for the diagnosis of apical Takotsubo syndrome. <em>Quantitative Imaging in Medicine and Surgery, 13</em>(3), 1323–1335. <a href="https://doi.org/10.21037/qims-21-1108">https://doi.org/10.21037/qims-21-1108</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.24s"><div class="ref-num">12</div><div class="ref-text">Journal of Cardiovascular Development and Disease. (2024). [Artículo]. <a href="https://doi.org/10.1186/s44158-024-00178-y">https://doi.org/10.1186/s44158-024-00178-y</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.26s"><div class="ref-num">13</div><div class="ref-text">Journal of Clinical Medicine. (2024). [Artículo]. <a href="https://doi.org/10.3390/jcm14217806">https://doi.org/10.3390/jcm14217806</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.28s"><div class="ref-num">14</div><div class="ref-text">Journal of Women's Health. (2021). [Artículo]. <a href="https://doi.org/10.1089/jwh.2021.0054">https://doi.org/10.1089/jwh.2021.0054</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.30s"><div class="ref-num">15</div><div class="ref-text">Kato, K., Di Vece, D., Kitagawa, M., Yamamoto, K., Aoki, S., Goto, H., Kitahara, H., Kobayashi, Y., &amp; Templin, C. (2024). Cardiogenic shock in takotsubo syndrome: Etiology and treatment. <em>Cardiovascular Intervention and Therapeutics, 39</em>(4), 421–427. <a href="https://doi.org/10.1007/s12928-024-01031-3">https://doi.org/10.1007/s12928-024-01031-3</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.32s"><div class="ref-num">16</div><div class="ref-text">Khalid, N., &amp; Ahmad, S. (2023). Takotsubo cardiomyopathy. En <em>StatPearls</em>. StatPearls Publishing. <a href="https://www.ncbi.nlm.nih.gov/books/NBK430798/">https://www.ncbi.nlm.nih.gov/books/NBK430798/</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.34s"><div class="ref-num">17</div><div class="ref-text">Khan, H., Gamble, D., Mezincescu, A., Abbas, H., Rudd, A., &amp; Dawson, D. (2021). A systematic review of biomarkers in Takotsubo syndrome: A focus on better understanding the pathophysiology. <em>International Journal of Cardiology: Heart &amp; Vasculature, 34</em>, 100795. <a href="https://doi.org/10.1016/j.ijcha.2021.100795">https://doi.org/10.1016/j.ijcha.2021.100795</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.36s"><div class="ref-num">18</div><div class="ref-text">Khan, M., et al. (2024). Current clinical perspectives on Takotsubo syndrome: Comprehensive analysis of diagnosis, management, and pathophysiology. <em>International Journal of the Cardiovascular Academy</em>. <a href="https://ijcva.org/articles/current-clinical-perspectives-on-takotsubo-syndrome-comprehensive-analysis-of-diagnosis-management-an">https://ijcva.org/articles/...</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.38s"><div class="ref-num">19</div><div class="ref-text">Kosek-Nikołajczuk, M., Borowiak, E., Piatkowski, R., Grabowski, M., &amp; Budnik, M. (2025). Long-term prognosis, risk assessment, and management of patients diagnosed with Takotsubo syndrome: A narrative review. <em>Journal of Personalized Medicine, 15</em>(9), 425. <a href="https://doi.org/10.3390/jpm15090425">https://doi.org/10.3390/jpm15090425</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.40s"><div class="ref-num">20</div><div class="ref-text">Laumer, F., Di Vece, D., Cammann, V. L., et al. (2022). Assessment of artificial intelligence in echocardiography diagnostics in differentiating Takotsubo syndrome from myocardial infarction. <em>JAMA Cardiology, 7</em>(5), 494–503. <a href="https://doi.org/10.1001/jamacardio.2022.0183">https://doi.org/10.1001/jamacardio.2022.0183</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.42s"><div class="ref-num">21</div><div class="ref-text">Lyon, A. R., Citro, R., Schneider, B., Morel, O., Ghadri, J. R., Templin, C., &amp; Omerovic, E. (2021). Pathophysiology of Takotsubo syndrome: JACC state-of-the-art review. <em>Journal of the American College of Cardiology, 77</em>(7), 902–921. <a href="https://doi.org/10.1016/j.jacc.2020.10.060">https://doi.org/10.1016/j.jacc.2020.10.060</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.44s"><div class="ref-num">22</div><div class="ref-text">Madias, J. E. (2024). Specifics in the ECG diagnosis of takotsubo syndrome. <em>International Journal of Cardiology, 408</em>, 132140. <a href="https://doi.org/10.1016/j.ijcard.2024.132140">https://doi.org/10.1016/j.ijcard.2024.132140</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.46s"><div class="ref-num">23</div><div class="ref-text">Maturitas. (2022). [Artículo]. <a href="https://doi.org/10.1016/j.maturitas.2022.08.005">https://doi.org/10.1016/j.maturitas.2022.08.005</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.48s"><div class="ref-num">24</div><div class="ref-text">Medrano, G. B., &amp; Sandoval, W. J. (2020). Síndrome de Takotsubo en el Instituto Salvadoreño del Seguro Social. <em>Crea Ciencia Revista Científica, 12</em>(2), 47–54. <a href="https://doi.org/10.5377/creaciencia.v12i2.10169">https://doi.org/10.5377/creaciencia.v12i2.10169</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.50s"><div class="ref-num">25</div><div class="ref-text">Menezes, M., Daniela, M., Marcão, I., &amp; Catarina, S. (2025). Takotsubo syndrome in a premenopausal patient. <em>BMJ Case Reports</em>. <a href="https://doi.org/10.1136/bcr-2017-222598">https://doi.org/10.1136/bcr-2017-222598</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.52s"><div class="ref-num">26</div><div class="ref-text">Nwaezeapu, K. I., Ajenaghughrure, G., Essien, E., &amp; Agyekum, A. (2025). Comparative cardiovascular outcomes between carvedilol and metoprolol in patients with Takotsubo syndrome: A propensity-matched cohort study. <em>The American Heart Journal, Supplement 290</em>, 23. <a href="https://doi.org/10.1016/j.ahj.2025.07.054">https://doi.org/10.1016/j.ahj.2025.07.054</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.54s"><div class="ref-num">27</div><div class="ref-text">Ochoa, M. A., Fernández Osorio, A. D., Ayola Ramirez, C., &amp; Bustamante, M. X. (2025). Síndrome de Takotsubo: una mirada desde la psiquiatría, reporte de caso. <em>Revista Colombiana de Psiquiatría, 54</em>(1), 150–154. <a href="https://doi.org/10.1016/j.rcp.2022.11.006">https://doi.org/10.1016/j.rcp.2022.11.006</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.56s"><div class="ref-num">28</div><div class="ref-text">Omar, B., &amp; Mangar, A. (2023). Takotsubo syndrome: Unravelling the enigma of the broken heart syndrome? A narrative review. <em>Chinese Medical Journal Pulmonary and Critical Care Medicine</em>. <a href="https://doi.org/10.1016/j.mcrm.2023.11.006">https://doi.org/10.1016/j.mcrm.2023.11.006</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.58s"><div class="ref-num">29</div><div class="ref-text">Omerovic, E., &amp; Redfors, B. (2026). Takotsubo syndrome: Pathophysiological insights and innovations in patient care. <em>Nature Reviews Cardiology, 23</em>(4), 239–254. <a href="https://doi.org/10.1038/s41569-025-01211-5">https://doi.org/10.1038/s41569-025-01211-5</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.60s"><div class="ref-num">30</div><div class="ref-text">Pancaldo, D., Armando, E., Barbero, U., Battisti, A., Dogliani, S., Gribaudo, E., de Benedictis, M., Bassignana, A., &amp; Doronzo, B. (2021). Sindrome takotsubo complicata da trombosi ventricolare e pericardite. <em>Giornale Italiano Di Cardiologia, 22</em>(5). <a href="https://doi.org/10.1714/3592.35750">https://doi.org/10.1714/3592.35750</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.62s"><div class="ref-num">31</div><div class="ref-text">Pelliccia, F., &amp; Camici, P. (2024). Unraveling the mysteries surrounding Takotsubo syndrome: Insights from a 30-year journey. <em>Journal of the American College of Cardiology, 84</em>(13), 1190–1192. <a href="https://doi.org/10.1016/j.jacc.2024.06.040">https://doi.org/10.1016/j.jacc.2024.06.040</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.64s"><div class="ref-num">32</div><div class="ref-text">Rawish, E., Stiermaier, T., Santoro, F., Brunetti, N. D., &amp; Eitel, I. (2021). Current knowledge and future challenges in Takotsubo syndrome: Part 1—Pathophysiology and diagnosis. <em>Journal of Clinical Medicine, 10</em>(19), 4331. <a href="https://doi.org/10.3390/jcm10194331">https://doi.org/10.3390/jcm10194331</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.66s"><div class="ref-num">33</div><div class="ref-text">Reviews in Cardiovascular Medicine. (2023). An extensive review on imaging diagnosis methods in Takotsubo syndrome. <em>Reviews in Cardiovascular Medicine, 24</em>(10), 300. <a href="https://doi.org/10.31083/j.rcm2410300">https://doi.org/10.31083/j.rcm2410300</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.68s"><div class="ref-num">34</div><div class="ref-text">Saito, Y., Watanabe, T., Ishigaki, T., Toyoshima, M., Katawaki, W., Toshima, T., Takahashi, T., Yamanaka, T., &amp; Watanabe, M. (2023). Recurrent Takotsubo syndrome presenting with different ballooning patterns and electrocardiographic abnormalities. <em>Internal Medicine, 62</em>(20), 2977–2980. <a href="https://doi.org/10.2169/internalmedicine.1564-23">https://doi.org/10.2169/internalmedicine.1564-23</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.70s"><div class="ref-num">35</div><div class="ref-text">Santoro, F., Mallardi, A., Leopizzi, A., Vitale, E., Stiermaier, T., Trambaiolo, P., Di Biase, M., Eitel, I., &amp; Brunetti, N. D. (2022). Stepwise approach for diagnosis and management of Takotsubo syndrome with cardiac imaging tools. <em>Heart Failure Reviews, 27</em>(2), 545–558. <a href="https://doi.org/10.1007/s10741-021-10205-7">https://doi.org/10.1007/s10741-021-10205-7</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.72s"><div class="ref-num">36</div><div class="ref-text">Santoro, F., Stiermaier, T., Tarantino, N., De Gennaro, L., Guastafierro, F., &amp; Brunetti, N. D. (2021). Current knowledge and future challenges in Takotsubo syndrome: Part 2—Treatment and prognosis. <em>Journal of Clinical Medicine, 10</em>(15), 3440. <a href="https://doi.org/10.3390/jcm10153440">https://doi.org/10.3390/jcm10153440</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.74s"><div class="ref-num">37</div><div class="ref-text">Schweiger, V., Cammann, V. L., Crisci, G., et al. (2024). Temporal trends in Takotsubo syndrome: Results from the International Takotsubo Registry. <em>Journal of the American College of Cardiology, 84</em>(13), 1178–1189. <a href="https://doi.org/10.1016/j.jacc.2024.05.076">https://doi.org/10.1016/j.jacc.2024.05.076</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.76s"><div class="ref-num">38</div><div class="ref-text">Schweiger, V., Gilhofer, T., Fang, R., et al. (2024). Coronary microvascular dysfunction in Takotsubo syndrome: An analysis using angiography-derived index of microcirculatory resistance. <em>Clinical Research in Cardiology, 113</em>(12), 1629–1637. <a href="https://doi.org/10.1007/s00392-023-02329-7">https://doi.org/10.1007/s00392-023-02329-7</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.78s"><div class="ref-num">39</div><div class="ref-text">Singh, T., Khan, H., Gamble, D. T., Scally, C., Newby, D. E., &amp; Dawson, D. (2022). Takotsubo syndrome: Pathophysiology, emerging concepts, and clinical implications. <em>Circulation, 145</em>(13), 1002–1019. <a href="https://doi.org/10.1161/CIRCULATIONAHA.121.055854">https://doi.org/10.1161/CIRCULATIONAHA.121.055854</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.80s"><div class="ref-num">40</div><div class="ref-text">Spigno, F. D., Santis, N. D., Canu, E., Caraffini, A., &amp; Aschieri, D. (2023). Sindrome Takotsubo con interessamento del ventricolo destro nella cardiomiopatia aritmogena biventricolare. <em>Giornale Italiano Di Cardiologia, 24</em>(9). <a href="https://www.giornaledicardiologia.it/archivio/4080/articoli/40657/">https://www.giornaledicardiologia.it/archivio/4080/articoli/40657/</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.82s"><div class="ref-num">41</div><div class="ref-text">Stiermaier, T., Reil, J., Sequeira, V., et al. (2023). Hemodynamic assessment in Takotsubo syndrome. <em>Journal of the American College of Cardiology, 81</em>(20), 1979–1991. <a href="https://doi.org/10.1016/j.jacc.2023.03.398">https://doi.org/10.1016/j.jacc.2023.03.398</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.84s"><div class="ref-num">42</div><div class="ref-text">Sundelin, R., Ekenbäck, C., Spaak, J., Sörensson, P., Henareh, L., Tornvall, P., &amp; Lyngå, P. (2026). Biological stress, self-rated stress, anxiety and depression in women with takotsubo syndrome. <em>BMC Cardiovascular Disorders, 26</em>(1), 84. <a href="https://doi.org/10.1186/s12872-025-05498-7">https://doi.org/10.1186/s12872-025-05498-7</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.86s"><div class="ref-num">43</div><div class="ref-text">Tarantino, N., Santoro, F., Di Biase, L., Di Terlizzi, V., Vitale, E., Barone, R., Della Rocca, D. G., De Leon De La Cruz, N. S., Di Biase, M., &amp; Brunetti, N. D. (2020). Chromogranin-A serum levels in patients with takotsubo syndrome and ST elevation acute myocardial infarction. <em>International Journal of Cardiology, 320</em>, 12–17. <a href="https://doi.org/10.1016/j.ijcard.2020.07.040">https://doi.org/10.1016/j.ijcard.2020.07.040</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.88s"><div class="ref-num">44</div><div class="ref-text">Topf, A., Mirna, M., Paar, V., Motloch, L. J., Grueninger, J., Dienhart, C., Schulze, P. C., Brandt, M. C., Larbig, R., Hoppe, U. C., Kretzschmar, D., &amp; Lichtenauer, M. (2022). The differential diagnostic value of selected cardiovascular biomarkers in Takotsubo syndrome. <em>Clinical Research in Cardiology, 111</em>(2), 197–206. <a href="https://doi.org/10.1007/s00392-021-01956-2">https://doi.org/10.1007/s00392-021-01956-2</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.90s"><div class="ref-num">45</div><div class="ref-text">Vásquez, M., et al. (2023). Características clínicas del síndrome de Takotsubo: Una serie de casos. <em>PMC</em>. <a href="https://pmc.ncbi.nlm.nih.gov/articles/">https://pmc.ncbi.nlm.nih.gov/articles/</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.92s"><div class="ref-num">46</div><div class="ref-text">Yalta, K., Madias, J. E., Kounis, N. G., Y-Hassan, S., Polovina, M., Altay, S., Mebazaa, A., Yilmaz, M. B., Lopatin, Y., Mamas, A. M., Gil, R. J., Thamman, R., Almaghraby, A., Bozkurt, B., Bajraktari, G., Fink, T., Traykov, V., Manzo-Silberman, S., Mirzoyev, U., … Seferovic, P. M. (2024). Takotsubo syndrome: An international expert consensus report on practical challenges and specific conditions (Part-2). <em>Balkan Medical Journal, 41</em>(6), 442–457. <a href="https://doi.org/10.4274/balkanmedj.galenos.2024.2024-9-99">https://doi.org/10.4274/balkanmedj.galenos.2024.2024-9-99</a></div></div>
+
+    <div class="ref-item" style="animation-delay:.94s"><div class="ref-num">47</div><div class="ref-text">Yao, S., et al. (2026). Takotsubo T waves: A diagnostically useful electrocardiographic pattern. <em>Journal of Electrocardiology</em>. Advance online publication. <a href="https://doi.org/10.1016/j.jelectrocard.2026.154246">https://doi.org/10.1016/j.jelectrocard.2026.154246</a></div></div>
+
+  </div>
+
+  <footer>
+    <div class="footer-text">
+      <strong>Sobre este documento</strong>
+      <p>Referencias bibliográficas completas en formato APA 7ª edición. Revisión narrativa: diferenciación entre Síndrome de Takotsubo y Síndrome Coronario Agudo.<br><br>UAG · Fundamentos Científicos — Cerebro, Conducta y Cognición · 2026.</p>
+    </div>
+    <div class="qr-wrap">
+      <div id="qrcode"></div>
+      <p class="qr-label">escanea para ver referencias</p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  const pageUrl = window.location.href;
+  new QRCode(document.getElementById("qrcode"), {
+    text: pageUrl,
+    width: 128,
+    height: 128,
+    colorDark: "#441125",
+    colorLight: "#fefed0",
+    correctLevel: QRCode.CorrectLevel.M
+  });
+</script>
+</body>
+</html>
